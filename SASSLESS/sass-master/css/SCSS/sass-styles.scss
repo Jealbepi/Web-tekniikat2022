@@ -1,0 +1,66 @@
+$highlight-colour: blue;
+$background-colour: #efefef;
+$font-stack: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+@mixin theme ($theme: DarkBlue) {
+    border-color: $theme;
+    h1 {
+        color: $theme;
+    }
+    ul li::before {
+        color: $theme;
+    }
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: $background-colour;
+    font-family: $font-stack;
+}
+header {
+    @include theme;
+}
+h1 {
+    color: $highlight-colour;
+}
+main {  
+    border-top: 1px solid $highlight-colour;
+}
+footer {
+    @include theme;
+    clear: both;
+    border-top-width: 1px;
+    border-top-style: solid;
+    padding-top: 1rem;
+    span {
+        text-align: center;
+        width: 100%;
+        display: block;
+        color: $highlight-colour;
+    }
+}
+.left {
+    @include theme;
+    float: left;
+    width: 20%;
+    ul {
+        list-style: none; /* Remove default bullets */
+        li::before {
+            content: "\2022";
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+    }
+      
+}
+.right {
+    float: left;
+    width: 80%;
+    padding: 1rem;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: red;
+}

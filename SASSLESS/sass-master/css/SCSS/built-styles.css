@@ -1,0 +1,81 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #efefef;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  border-color: DarkBlue;
+}
+header h1 {
+  color: DarkBlue;
+}
+header ul li::before {
+  color: DarkBlue;
+}
+
+h1 {
+  color: blue;
+}
+
+main {
+  border-top: 1px solid blue;
+}
+
+footer {
+  border-color: DarkBlue;
+  clear: both;
+  border-top-width: 1px;
+  border-top-style: solid;
+  padding-top: 1rem;
+}
+footer h1 {
+  color: DarkBlue;
+}
+footer ul li::before {
+  color: DarkBlue;
+}
+footer span {
+  text-align: center;
+  width: 100%;
+  display: block;
+  color: blue;
+}
+
+.left {
+  border-color: DarkBlue;
+  float: left;
+  width: 20%;
+}
+.left h1 {
+  color: DarkBlue;
+}
+.left ul li::before {
+  color: DarkBlue;
+}
+.left ul {
+  list-style: none;
+  /* Remove default bullets */
+}
+.left ul li::before {
+  content: "•";
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.right {
+  float: left;
+  width: 80%;
+  padding: 1rem;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #000;
+}
+
+/*# sourceMappingURL=built-styles.css.map */
