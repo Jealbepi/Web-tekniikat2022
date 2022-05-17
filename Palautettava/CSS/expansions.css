@@ -36,32 +36,26 @@ section {
 
 .navbar {
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-    background-color: rgba(0, 0, 0, 0.589);
 }
 
 .logo-text {
     font-size: 22px;
     text-transform: uppercase;
-    color: white !important;
+    color: #11245A !important;
 }
+
 .navbar .nav-link {
-    font-size: 15px;
+    font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 1px;
-    color: white !important;
-}
-.nav-link:hover {
-    color: gray !important;
 }
 .navbar-light .navbar-nav .nav-link.active {
-    color: red !important;
+    color: #E93B81;
 }
 
-
 #home {
-    background: linear-gradient(rgba(128, 0, 0, 0.308), rgba(0, 255, 0, 0.199)), url(/images/Frontpagewallpaper.png);
+    background: linear-gradient(rgba(92, 60, 0, 0), rgba(255, 166, 0, 0.493)), url(/images/darkportal.png);
     min-height: 100vh;
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -71,13 +65,11 @@ section {
 
 #home h1 {
     font-weight: 700;
-    font-size: 80px;
 }
 
 #home p {
     max-width: 550px;
     margin: 20px auto;
-    font-size: 20px;
 }
 
 .btn {
