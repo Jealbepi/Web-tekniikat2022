@@ -9,7 +9,7 @@
 </head>
 <body data-bs-target=".navbar">
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light">
         <div class="container">
           <a class="navbar-brand logo-text" href="#">WEB-TEKNIIKAT 2022</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,29 +18,89 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="../index.html">Home</a>
+                        <a class="nav-link" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/expansions.html">Expansions</a>
+                        <a class="nav-link active" href="expansions.html">Expansions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="../pages/about.html">About</a>
+                        <a class="nav-link" href="/pages/about.html">About</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section id="home">
-        <div class="container text-center">
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <h1 class="text-white display-1">BURNING CRUSADE</h1>
-                    <p class="text-white">Here I will give you a very brief presentation of each World of Warcraft expansion</p>
-                </div>
-            </div>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="5" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="6" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleFade" data-bs-slide-to="7" aria-label="Slide 8"></button>
         </div>
-    </section>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image: url(/images/burningcrusade2.png);" data-bs-interval="1000000">
+            <!--<img src="/images/burningcrusade2.png" class="d-block img-fluid" alt="burningcrusade"> -->
+            <div class="carousel-caption d-md-block">
+              <h5>Burning crusade</h5>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(/images/wrathofthelichking.png)" data-bs-interval="1000000">
+            <!--<img src="/images/wrathofthelichking.png" class="d-block img-fluid" alt="..."> -->
+            <div class="carousel-caption d-md-block">
+              <h5>Wrath of the lich king</h5>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(/images/Cataclysm.png);" data-bs-interval="1000000">
+            <!--<img src="/images/Cataclysm.png" class="d-block img-fluid" alt="..."> -->
+            <div class="carousel-caption d-md-block">
+              <h5>Cataclysm</h5>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(/images/mistsofpandaria.png);" data-bs-interval="1000000">
+            <!--<img src="/images/mistsofpandaria.png" class="d-block img-fluid" alt="..."> -->
+            <div class="carousel-caption d-md-block">
+              <h5>Mists of pandaria</h5>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(/images/warlordsofdraenor.png);" data-bs-interval="1000000">
+            <!--<img src="/images/warlordsofdraenor.png" class="d-block img-fluid" alt="..."> -->
+            <div class="carousel-caption d-md-block">
+              <h5>Warlords of Draenor</h5>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(/images/legion2.jpg);" data-bs-interval="1000000">
+            <!--<img src="/images/legion2.jpg" class="d-block img-fluid" alt="..."> -->
+            <div class="carousel-caption d-md-block">
+              <h5>Legion</h5>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(/images/battleforazeroth.png);" data-bs-interval="1000000">
+            <!--<img src="/images/battleforazeroth.png" class="d-block img-fluid" alt="..."> -->
+            <div class="carousel-caption d-md-block">
+              <h5>Battle for Azeroth</h5>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image: url(/images/shadowlands.png);" data-bs-interval="1000000">
+            <!--<img src="/images/shadowlands.png" class="d-block img-fluid" alt="shadowlands"> -->
+            <div class="carousel-caption d-md-block">
+              <h5>Shadowlands</h5>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 <script src="/JavaScript/expansions.js"></script>
