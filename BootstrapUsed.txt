@@ -1,0 +1,5 @@
+Navbar, All of the pages
+Carousel, Expansions page
+Accordion, About page
+Grids, Home page and About page
+
