@@ -1,0 +1,12 @@
+Sivussa käytetyt värit:
+
+#898fa1, #11245A, Black, White/#fff, Gray, Red, Green, Lightgreen,
+#1a3a94, 0044fd, #17347c, Yellow
+
+(rgba(128, 0, 0, 0.308), rgba(0, 255, 0, 0.199))
+
+(rgba(255, 255, 0, 0.082), rgba(255, 208, 1, 0.068))
+
+rgba(253, 197, 43, 0.664)
+
+Sivussa käytetty fontti: 'Lato', sans-serif
