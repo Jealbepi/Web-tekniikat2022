@@ -58,7 +58,7 @@ section {
 }
 
 #home {
-    background: linear-gradient(rgba(128, 0, 0, 0.308), rgba(0, 255, 0, 0.199)), url(/images/Frontpagewallpaper.png);
+    background: linear-gradient(rgba(128, 0, 0, 0.308), rgba(0, 255, 0, 0.199)), url(images/Frontpagewallpaper.png);
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;

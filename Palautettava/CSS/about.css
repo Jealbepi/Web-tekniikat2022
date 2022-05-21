@@ -115,7 +115,7 @@ h3::before {
 
 .section {
     padding: 11em 0;
-    background: linear-gradient(rgba(255, 255, 0, 0.082), rgba(255, 208, 1, 0.068)), url(/images/azeroth.png);
+    background: linear-gradient(rgba(255, 255, 0, 0.082), rgba(255, 208, 1, 0.068)), url(../images/azeroth.png);
     min-height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
